@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "id": "mon-identifiant-unique",
+  "title": "Titre du morceau",
+  "artist": "Compositeur ou Traditionnel",
+  "description": "Courte description du morceau et du niveau.",
+  "difficulty": "beginner",
+  "rights": {
+    "type": "public-domain",
+    "source": "Domaine public — préciser l'origine si connue"
+  },
+  "instrument": {
+    "type": "ukulele",
+    "tuning": "high-g-gcea",
+    "maximumFret": 12
+  },
+  "timing": {
+    "bpm": 80,
+    "beatsPerBar": 4,
+    "beatUnit": 4,
+    "ticksPerBeat": 480,
+    "countInBars": 1
+  },
+  "display": {
+    "showNoteNames": true,
+    "showTablature": true
+  },
+  "events": [
+    {
+      "id": "note-001",
+      "type": "note",
+      "startTick": 0,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-002",
+      "type": "note",
+      "startTick": 480,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 2,
+      "midi": 62,
+      "noteName": "D4"
+    },
+    {
+      "id": "rest-001",
+      "type": "rest",
+      "startTick": 960,
+      "durationTicks": 480
+    }
+  ]
+}

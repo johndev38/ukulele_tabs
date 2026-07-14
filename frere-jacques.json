@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "id": "frere-jacques",
+  "title": "Frère Jacques",
+  "artist": "Traditionnel",
+  "description": "Comptine française classique en do majeur.",
+  "difficulty": "beginner",
+  "rights": {
+    "type": "public-domain",
+    "source": "Mélodie traditionnelle / composition du domaine public"
+  },
+  "instrument": {
+    "type": "ukulele",
+    "tuning": "high-g-gcea",
+    "maximumFret": 12
+  },
+  "timing": {
+    "bpm": 100,
+    "beatsPerBar": 4,
+    "beatUnit": 4,
+    "ticksPerBeat": 480,
+    "countInBars": 1
+  },
+  "display": {
+    "showNoteNames": true,
+    "showTablature": true
+  },
+  "events": [
+    {
+      "id": "note-001",
+      "type": "note",
+      "startTick": 0,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-002",
+      "type": "note",
+      "startTick": 480,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 2,
+      "midi": 62,
+      "noteName": "D4"
+    },
+    {
+      "id": "note-003",
+      "type": "note",
+      "startTick": 960,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-004",
+      "type": "note",
+      "startTick": 1440,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-005",
+      "type": "note",
+      "startTick": 1920,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-006",
+      "type": "note",
+      "startTick": 2400,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 2,
+      "midi": 62,
+      "noteName": "D4"
+    },
+    {
+      "id": "note-007",
+      "type": "note",
+      "startTick": 2880,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-008",
+      "type": "note",
+      "startTick": 3360,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-009",
+      "type": "note",
+      "startTick": 3840,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-010",
+      "type": "note",
+      "startTick": 4320,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 1,
+      "midi": 65,
+      "noteName": "F4"
+    },
+    {
+      "id": "note-011",
+      "type": "note",
+      "startTick": 4800,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-012",
+      "type": "note",
+      "startTick": 5280,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-013",
+      "type": "note",
+      "startTick": 5760,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 1,
+      "midi": 65,
+      "noteName": "F4"
+    },
+    {
+      "id": "note-014",
+      "type": "note",
+      "startTick": 6240,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-015",
+      "type": "note",
+      "startTick": 6720,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-016",
+      "type": "note",
+      "startTick": 7200,
+      "durationTicks": 480,
+      "string": 1,
+      "fret": 0,
+      "midi": 69,
+      "noteName": "A4"
+    },
+    {
+      "id": "note-017",
+      "type": "note",
+      "startTick": 7680,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-018",
+      "type": "note",
+      "startTick": 8160,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 1,
+      "midi": 65,
+      "noteName": "F4"
+    },
+    {
+      "id": "note-019",
+      "type": "note",
+      "startTick": 8640,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-020",
+      "type": "note",
+      "startTick": 9120,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-021",
+      "type": "note",
+      "startTick": 9600,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-022",
+      "type": "note",
+      "startTick": 10080,
+      "durationTicks": 480,
+      "string": 1,
+      "fret": 0,
+      "midi": 69,
+      "noteName": "A4"
+    },
+    {
+      "id": "note-023",
+      "type": "note",
+      "startTick": 10560,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-024",
+      "type": "note",
+      "startTick": 11040,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 1,
+      "midi": 65,
+      "noteName": "F4"
+    },
+    {
+      "id": "note-025",
+      "type": "note",
+      "startTick": 11520,
+      "durationTicks": 480,
+      "string": 2,
+      "fret": 0,
+      "midi": 64,
+      "noteName": "E4"
+    },
+    {
+      "id": "note-026",
+      "type": "note",
+      "startTick": 12000,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-027",
+      "type": "note",
+      "startTick": 12480,
+      "durationTicks": 960,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-028",
+      "type": "note",
+      "startTick": 13440,
+      "durationTicks": 960,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-029",
+      "type": "note",
+      "startTick": 14400,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    },
+    {
+      "id": "note-030",
+      "type": "note",
+      "startTick": 14880,
+      "durationTicks": 480,
+      "string": 4,
+      "fret": 0,
+      "midi": 67,
+      "noteName": "G4"
+    },
+    {
+      "id": "note-031",
+      "type": "note",
+      "startTick": 15360,
+      "durationTicks": 480,
+      "string": 3,
+      "fret": 0,
+      "midi": 60,
+      "noteName": "C4"
+    }
+  ]
+}
