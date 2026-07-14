@@ -1,10 +1,13 @@
 {
   "songs": [
     "au-clair-de-la-lune.json",
-    "basic-chords.json",
-    "frere-jacques.json",
-    "twinkle-twinkle.json",
     "au-clair-de-la-lune.json",
-    "happy-birthday.json"
+    "basic-chords.json",
+    "creep-radiohead-accompagnement.json",
+    "frere-jacques.json",
+    "happy-birthday.json",
+    "im-yours-jason-mraz-accompagnement.json",
+    "somewhere-over-the-rainbow-accompagnement.json",
+    "twinkle-twinkle.json"
   ]
 }
