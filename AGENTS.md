@@ -123,9 +123,30 @@ Pour ce catalogue public, privilégier :
 }
 ```
 
+**Accord** (`type: "chord"`) — plusieurs cordes grattées ensemble :
+
+```json
+{
+  "id": "chord-001",
+  "type": "chord",
+  "startTick": 0,
+  "durationTicks": 1920,
+  "name": "C",
+  "fingers": [
+    { "string": 4, "fret": 0, "midi": 67, "noteName": "G4" },
+    { "string": 3, "fret": 0, "midi": 60, "noteName": "C4" },
+    { "string": 2, "fret": 0, "midi": 64, "noteName": "E4" },
+    { "string": 1, "fret": 3, "midi": 72, "noteName": "C5" }
+  ]
+}
+```
+
+- `fret: -1` = corde étouffée (sans `midi` ni `noteName`).
+- Voir `basic-chords.json` pour un morceau complet C – Am – F – G.
+
 ### Règles musicales strictes
 
-- **Monophonique** : une seule note à la fois (pas d’accords, pas de chevauchement).
+- **Timeline** : une note **ou** un accord par créneau — pas de chevauchement entre événements.
 - **Tri** : `events` ordonnés par `startTick` croissant.
 - **IDs uniques** : chaque `id` d’événement est unique dans le morceau.
 - **Cohérence MIDI** : `midi` = corde ouverte + `fret` ; `noteName` correspond au MIDI (notation internationale, dièses uniquement : `C4`, `C#4`, `A4`…).
